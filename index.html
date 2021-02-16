@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellota:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Color Game</title>
-</head>
-<body>
-    <h1>The Great <br>
-        <span id="colorDisplay"></span> 
-        <br> Guessing Game</h1>
-    
+  </head>
+  <body>
+    <h1>
+      The Great <br />
+      <span id="colorDisplay"></span>
+      <br />
+      Guessing Game
+    </h1>
+
     <div id="stripe">
-        <button id="reset">New Colors</button>
-        <span id="message"></span>
-        <button class="mode" id="easy">EASY</button>
-        <button class="mode" id="hard">HARD</button>
-        <!--Before, ambos estaban en class = selected-->
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="mode" id="easy">EASY</button>
+      <button class="mode" id="medium">MEDIUM</button>
+      <button class="mode" id="hard">HARD</button>
     </div>
     <div class="container">
+      <div class="view">
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
     </div>
 
     <script src="main.js"></script>
-</body>
-</html> 
-
+  </body>
+</html>
