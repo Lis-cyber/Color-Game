@@ -6,7 +6,7 @@
 * Runs the html file in any browser.
 * The page will reload if you make edits.
 
-Screenshots of a working project
+💻 Screenshots of a working project
 <h1 align="center"><img width="50%" src="./images/readme4.png"> <img width="40%" src="./images/readme3.png"></h1>
 
 
